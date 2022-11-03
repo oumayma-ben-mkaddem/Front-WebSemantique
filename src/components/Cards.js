@@ -32,6 +32,7 @@ const Cards = () => {
                           label='Adventure'
                           path='/Heberegement'
                         />
+                    
                         <CardItem
                           src='images/img-8.jpg'
                           text='Ride through the Sahara Desert on a guided camel tour'

@@ -24,15 +24,14 @@ const Products = (props) => {
 
 
     return (
-        <div className={'products'}>
-
-            <table class="table">
+        <div>
+            <table className="table table-hover">
                 <thead>
                     <tr>
-                        <th scope="col">Nom:</th>
-                        <th scope="col">Prenom:</th>
-                        <th scope="col">Email :</th>
-                        <th scope="col">Age :</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Prenom</th>
+                        <th scope="col">Email </th>
+                        <th scope="col">Age </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,3 +51,4 @@ const Products = (props) => {
 }
 
 export default Products 
+
